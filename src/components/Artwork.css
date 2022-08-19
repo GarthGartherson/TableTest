@@ -1,0 +1,10 @@
+.centered {
+  text-align: center;
+}
+
+button {
+  border: 1px solid #bdbdbd;
+  letter-spacing: 0.25px;
+  border-radius: 24px;
+  cursor: pointer;
+}

@@ -1,0 +1,83 @@
+.App {
+  font-family: sans-serif;
+  margin: 24px;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(45deg, #614385, #516395);
+  color: white;
+}
+
+.description-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+table {
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow-wrap: break-word;
+}
+
+th,
+td {
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  text-align: center;
+}
+
+.display-date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.display-date__title {
+  padding-right: 3%;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+.centered {
+  text-align: center;
+}
+.button-delete {
+  background-color: red;
+  color: white;
+  border: red;
+}
+
+.button-delete:hover {
+  box-shadow: 0 0 0 2px red;
+}
+
+.button-sort {
+  background-color: none;
+}
+
+.button-sort:hover {
+  color: white;
+  background-color: grey;
+}
+
+@media (max-width: 450px) {
+  body {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .App {
+    margin: 0;
+  }
+  table {
+    width: 100%;
+    table-layout: fixed;
+  }
+  td {
+    padding: 3px;
+  }
+}
